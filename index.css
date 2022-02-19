@@ -89,12 +89,7 @@ p{
         display: flex;
         flex-direction: row;
         width: 100%;
-        align-items: center;
-        
-    }
-
-    .foto_perfil{
-        padding: 
+        align-items: center;        
     }
 }
 
@@ -107,9 +102,6 @@ p{
         display: block;
         width: auto;
         font-size: 20px;
-    }
-    .foto_perfil{
-        padding: 
     }
 }
 
@@ -124,29 +116,12 @@ p{
         width: auto;
         font-size: 20px;
     }
-
-    .foto_perfil{
-        padding: 
-    }
-}
-
-@media(min-width: 412px){
-    .foto_perfil{
-        padding: 
-    }
-}
-
-@media(min-width: 414px){
-    .foto_perfil{
-        padding: 
-    }
 }
 
 @media(min-width: 540px){
     .foto_perfil{
         width: 200px;
         height: 200px;
-        padding: 
     }
 }
 
