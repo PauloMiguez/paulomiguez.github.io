@@ -54,9 +54,7 @@ p{
 
 .bloco_informacao{
     display: flex;
-    flex-direction: row;
-    margin-left: 25px;
-    margin-right: 10px;
+    flex-direction: row;    
     width: 100%;
     align-items: center;
 }
@@ -72,6 +70,13 @@ p{
     color: white;
 }
 
+.icones_contato{
+    display: block;
+    flex-direction: row;
+    position: fixed;
+    background-color: #a5c2f0;    
+}
+
 @media(min-width: 280px){
     .principal{
         background-color: whitesmoke;
@@ -79,7 +84,7 @@ p{
         padding: 10px;
         height: 100%;
         display: block;
-    }
+        }
 
     .lado_direito, .lado_esquerdo{
         padding: 0px;
@@ -116,6 +121,7 @@ p{
         width: auto;
         font-size: 20px;
     }
+    
 }
 
 @media(min-width: 540px){
