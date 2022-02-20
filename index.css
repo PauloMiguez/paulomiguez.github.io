@@ -74,14 +74,13 @@ p{
 .icones_contato{
     display: flex;
     flex-direction: row;
-    position: sticky;
     background-color: #a5c2f0;
     justify-content: space-between; 
     border-style:ridge;   
 }
 
 .rodape_lado_esquerdo{
-    padding-left: 10px;
+    padding-left: 25px;
 }
 
 @media(min-width: 280px){
