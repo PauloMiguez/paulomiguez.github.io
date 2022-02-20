@@ -50,6 +50,7 @@ p{
 
 .material-icons.icone_branco{
     color: white;
+    text-align: center;
 }
 
 .bloco_informacao{
@@ -71,10 +72,16 @@ p{
 }
 
 .icones_contato{
-    display: block;
+    display: flex;
     flex-direction: row;
-    position: fixed;
-    background-color: #a5c2f0;    
+    position: sticky;
+    background-color: #a5c2f0;
+    justify-content: space-between; 
+    border-style:ridge;   
+}
+
+.rodape_lado_esquerdo{
+    padding-left: 10px;
 }
 
 @media(min-width: 280px){
@@ -94,8 +101,9 @@ p{
         display: flex;
         flex-direction: row;
         width: 100%;
-        align-items: center;        
-    }
+        align-items: center;  
+        text-align: center;      
+    }    
 }
 
 @media(min-width: 360px){
