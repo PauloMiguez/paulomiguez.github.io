@@ -1,9 +1,10 @@
-body{
-    background-color: lightblue;
-}
-
 a{
     text-decoration: none;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
 }
 
 h3{
@@ -17,6 +18,13 @@ h3{
     grid-template-columns: 1fr 70%;
 }
 
+.foto_perfil{
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+    
+}
+
 .lado_esquerdo{
     background-color: #355586;
 }
@@ -25,16 +33,11 @@ h3{
     padding: 40px;   
 }
 
-.foto_perfil{
-    border-radius: 50%;   
-    padding: 20px 100px;
-}
-
 .info-lado_esquerdo{
     color: #a5c2f0;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .subtitulo{
@@ -45,56 +48,48 @@ h3{
 
 p{
     color: white;
-    margin: 30px;
+    margin: 30px 30px 30px 50px;
 }
 
 .material-icons.icone_branco{
     color: white;
-    text-align: center;
 }
 
 .bloco_informacao{
-    display: flex;
-    flex-direction: row;    
-    width: 100%;
-    align-items: center;
+    display: block;
 }
 
 .descricao{
-    font-size: 14px;
+    font-size: 16px;
     color: white;
-    font-weight: 600;
     font-family: Andale Mono, monospace;
-    margin: 16px;
+    margin: 4px;
 }
 .descricao a{
     color: white;
 }
 
 .icones_contato{
-    display: flex;
+    display: block;
     flex-direction: row;
-    background-color: #a5c2f0;
-    justify-content: space-between; 
-    border-style:ridge;   
+    background-color: #557ebb;
+    border-style:ridge;  
+    position: fixed;
+    top: 50px;
 }
 
 .rodape_lado_esquerdo{
     padding-left: 25px;
+    padding-bottom: 25px;
 }
+
 
 @media(min-width: 280px){
     .principal{
         background-color: whitesmoke;
-        margin-right: 5px;
-        padding: 10px;
         height: 100%;
         display: block;
         }
-
-    .lado_direito, .lado_esquerdo{
-        padding: 0px;
-    }
 
     .bloco_informacao{
         display: flex;
@@ -108,8 +103,6 @@ p{
 @media(min-width: 360px){
     .principal{
         background-color: whitesmoke;
-        margin-right: 5px;
-        padding: 10px;
         height: 100%;
         display: block;
         width: auto;
@@ -121,8 +114,6 @@ p{
     
     .principal{
         background-color: whitesmoke;
-        margin-right: 5px;
-        padding: 10px;
         height: 100%;
         display: block;
         width: auto;
@@ -143,13 +134,20 @@ p{
         background-color: whitesmoke;    
         height: 100%;
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 70%;
         width: auto;
-        padding: 0px;
     }
 
     .lado_direito{
-        padding: 0px 80px 0px 20px;
+        padding: 20px;
+    }
+
+    .foto_perfil{
+        width: 150px;
+        height: 150px;
+    }
+    p, li{
+        font-size: 16px;
     }
 }
 
@@ -162,27 +160,42 @@ p{
         grid-template-columns: 1fr 70%;
     }
     .lado_direito{
-        padding: 0px 80px 0px 20px;
+        padding: 20px;
     }
 }
 
 
 @media(min-width:1024px){
+    
+
+    .lado_direito{
+        padding: 20px;
+    }
+    .foto_perfil{
+        border-radius: 50%;
+        text-align: center;
+        margin-left: 20px;
+    }
+    
+
+}
+
+@media(min-width:1440px){
+
     .principal{
         background-color: whitesmoke;    
         height: 100%;
         display: grid;
         grid-template-columns: 1fr 70%;
     }
-
-    .lado_direito{
-        padding: 0px 120px 0px 20px;
-    }
-}
-
-@media(min-width:1440px){
     
     .lado_direito{
-        padding: 15px;
+        padding: 20px;
+    }
+
+    .foto_perfil{
+        border-radius: 50%;
+        text-align: center;
+        margin-left: 50px;
     }
 }
