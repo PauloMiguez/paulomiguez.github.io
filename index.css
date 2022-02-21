@@ -57,6 +57,7 @@ p{
 
 .bloco_informacao{
     display: block;
+    margin-bottom: 20px;
 }
 
 .descricao{
@@ -78,11 +79,10 @@ p{
     top: 50px;
 }
 
-.rodape_lado_esquerdo{
-    padding-left: 25px;
+.bloco_informacao_idiomas{
+    padding-left: 50px;
     padding-bottom: 25px;
 }
-
 
 @media(min-width: 280px){
     .principal{
